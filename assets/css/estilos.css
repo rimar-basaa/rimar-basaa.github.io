@@ -1,0 +1,56 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+#Hero-Section {  
+  background-image: url("../img/IMG-20201011-WA0001.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* --------------------- Acerca de mi */
+
+#Acerca-de-mi img {
+  border-radius: 10px;
+}
+
+.iconos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.iconos i {  
+  font-size: 70px;
+  width: 75px;
+  height: 75px;
+  color: rgb(224, 223, 223);
+}
+
+/* ---------------------- Portafolio */
+
+#Portafolio .card {
+  height: 100%;  
+}
+
+.image-top img {
+  width: 98%;  
+}
+
+/* ----------------------- Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
